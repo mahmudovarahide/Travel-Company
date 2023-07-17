@@ -1,8 +1,13 @@
 import "./assets/style/style.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Layout from "./layout";
+import Router from "./routers";
 function App() {
   return (
     <>
-      <h1>Salam</h1>
+      <Layout>
+        <Router />
+      </Layout>
     </>
   );
 }

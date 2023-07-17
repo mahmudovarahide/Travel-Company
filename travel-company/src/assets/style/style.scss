@@ -1,6 +1,25 @@
 @import './reset';
 @import './variable';
+@import './mixin';
 
-h1{
-    color: red;
+header{
+    background-color: #795f50;
+    padding: 10px 0;
+    .logo-box{
+        width: 50px;
+        img{
+            width: 100%;
+            height: 100%;
+            @include border-radius;
+        }
+    }
+    nav{
+        @include d-flex;
+        a{
+            color: $--light;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: 500;
+        }
+    }
 }

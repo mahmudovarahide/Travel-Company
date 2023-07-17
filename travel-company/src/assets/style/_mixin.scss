@@ -1,0 +1,12 @@
+@mixin border-radius{
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+@mixin d-flex{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}

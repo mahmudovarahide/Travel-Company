@@ -16,6 +16,30 @@ ul {
   list-style: none;
 }
 
-h1 {
-  color: red;
+header {
+  background-color: #795f50;
+  padding: 10px 0;
+}
+header .logo-box {
+  width: 50px;
+}
+header .logo-box img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+header nav {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+header nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
 }/*# sourceMappingURL=style.css.map */
